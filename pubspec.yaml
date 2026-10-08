@@ -1,0 +1,17 @@
+name: kumo
+description: A lightweight anime streaming client using Jikan and Torrentio.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.1
+  video_player: ^2.9.2
+dev_dependencies:
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
